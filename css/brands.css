@@ -192,6 +192,32 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Society6 */
+.button.button-society6 {
+  color: #000000;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 4px;
+  background-color: #d7dfe2;
+}
+.button.button-society6:hover,
+.button.button-society6:focus {
+  filter: brightness(90%);
+}
+
+/* Mastodon */
+.button.button-mastodon {
+  color: #000000;
+  border-style: solid;
+  border-color: #2b90d9;
+  border-width: 3px;
+  background-color: #d7dfe2;
+}
+.button.button-society6:hover,
+.button.button-society6:focus {
+  filter: brightness(90%);
+}
+
 /* Facebook */
 .button.button-faceb {
   color: #ffffff;
@@ -317,16 +343,6 @@ button:hover,
 }
 .button.button-linked:hover,
 .button.button-linked:focus {
-  filter: brightness(90%);
-}
-
-/* Mastodon */
-.button.button-mastodon {
-  color: #ffffff;
-  background-color: #17063b;
-}
-.button.button-mastodon:hover,
-.button.button-mastodon:focus {
   filter: brightness(90%);
 }
 
@@ -641,6 +657,16 @@ button:hover,
 .button.button-yt {
   color: #ffffff;
   background-color: #000000;
+}
+.button.button-yt:hover,
+.button.button-yt:focus {
+  filter: brightness(90%);
+}
+
+/* YouTube Red */
+.button.button-yt {
+  color: #ffffff;
+  background-color: #c71818;
 }
 .button.button-yt:hover,
 .button.button-yt:focus {
