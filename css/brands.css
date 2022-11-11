@@ -181,11 +181,11 @@ button:hover,
 
 /* Redbubble */
 .button.button-redbubble {
-  color: #e41321;
+  color: #c71818;
   border-style: solid;
-  border-color: #e41321;
-  border-width: 2px;
-  background-color: #ffffff;
+  border-color: #c71818;
+  border-width: 3px;
+  background-color: #d7dfe2;
 }
 .button.button-redbubble:hover,
 .button.button-redbubble:focus {
