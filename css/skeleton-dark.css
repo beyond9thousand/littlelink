@@ -89,16 +89,16 @@
 }
 
 a.button {
-  transition: all 0.1s linear;
+  transition: all 0.1s ease-out;
 }
 
 a.button:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 a.button:hover .icon_special,
 a.button:hover .icon {
-  animation: float 0.6s linear;
+  animation: float 0.6s ease-out;
 }
 
 @keyframes float {
@@ -137,6 +137,15 @@ html {
   background-attachment: fixed;
   height: 100vh;
   /* background-repeat: no-repeat; */
+}
+
+p {
+  text-shadow: 0px 0px 4px #181a1b,0px 0px 4px #181a1b;
+}
+
+h2,
+h3 {
+  text-shadow: 0px 0px 2px #181a1b,0px 0px 8px #181a1b;
 }
 
 body {
