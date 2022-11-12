@@ -88,6 +88,14 @@
   }
 }
 
+@media (max-width: 500px) {
+  html {
+    background-size: 250% !important;
+    background-repeat: no-repeat;
+    background-position-x: 35%;
+  }
+}
+
 a.button {
   transition: all 0.1s ease-out;
 }
@@ -140,12 +148,12 @@ html {
 }
 
 p {
-  text-shadow: 0px 0px 4px #181a1b,0px 0px 4px #181a1b;
+  text-shadow: 0px 0px 4px #181a1b, 0px 0px 4px #181a1b;
 }
 
 h2,
 h3 {
-  text-shadow: 0px 0px 2px #181a1b,0px 0px 8px #181a1b;
+  text-shadow: 0px 0px 2px #181a1b, 0px 0px 8px #181a1b;
 }
 
 body {
