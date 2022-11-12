@@ -80,18 +80,31 @@
 }
 
 /* Tablet devices courtesy of israr sir */
+
+@media (max-width: 900px) {
+  html {
+    background-size: 175% !important;
+    background-position-x: 25%;
+  }
+}
+
 @media (max-width: 800px) {
   html {
     background-size: 200% !important;
-    background-repeat: no-repeat;
-    background-position-x: 35%;
+    background-position-x: 30%;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    background-size: 275% !important;
+    background-position-x: 32.5%;
   }
 }
 
 @media (max-width: 400px) {
   html {
-    background-size: 250% !important;
-    background-repeat: no-repeat;
+    background-size: 300% !important;
     background-position-x: 35%;
   }
 }
