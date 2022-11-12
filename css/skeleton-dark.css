@@ -100,11 +100,11 @@ html {
   background-image: linear-gradient(
       to bottom,
       transparent 0%,
-      #292929 50%,
-      #292929 90%
+      #292929 70%
     ),
     url("https://cdna.artstation.com/p/assets/images/images/047/439/488/medium/sayak-das-gutsrender-logo-1080p.jpg?1647583105");
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
   /* background-repeat: no-repeat; */
 }
@@ -115,6 +115,7 @@ body {
   line-height: 24px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
+  text-transform: lowercase;
 }
 
 /* Typography
