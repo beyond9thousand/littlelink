@@ -79,7 +79,8 @@
   }
 }
 
-@media (max-width: 550px) {
+/* Tablet devices courtesy of israr sir */
+@media (max-width: 800px) {
   html {
     background-size: 300% !important;
     background-repeat: no-repeat;
