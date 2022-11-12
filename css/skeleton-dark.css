@@ -82,9 +82,9 @@
 /* Tablet devices courtesy of israr sir */
 @media (max-width: 800px) {
   html {
-    background-size: 250% !important;
+    background-size: 200% !important;
     background-repeat: no-repeat;
-    background-position-x: 36%;
+    background-position-x: 35%;
   }
 }
 
