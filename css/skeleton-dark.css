@@ -206,6 +206,7 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
+  text-transform: lowercase;
   color: #0085ff;
 }
 a:hover {
