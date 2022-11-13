@@ -36,7 +36,7 @@
   width: 100%;
   max-width: 600px;
   text-align: center;
-  margin: 0 auto;
+  margin: 5% auto;
   padding: 0 20px;
   box-sizing: border-box;
 }
@@ -62,18 +62,12 @@
     width: 85%;
     padding: 0;
   }
-  .column {
-    margin: 10% 0%;
-  }
 }
 
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
     width: 80%;
-  }
-  .column {
-    margin: 10% 0%;
   }
   .column:first-child {
     margin-left: 0;
