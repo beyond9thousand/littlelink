@@ -112,11 +112,15 @@
 /* Animations */
 
 a.button {
+  text-transform: lowercase;
+  filter: brightness(90%);
   transition: all 0.1s ease-out;
 }
 
-a.button:hover {
+a.button:hover,
+a.button:focus {
   transform: scale(1.1);
+  filter: brightness(105%);
 }
 
 a.button:hover .icon_special,
@@ -206,7 +210,6 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  text-transform: lowercase;
   color: #0085ff;
 }
 a:hover {
@@ -282,9 +285,10 @@ hr {
 50% (default): True circle
 */
 .avatar {
-  width: 128px;
-  height: 128px;
+  /* width: 128px; */
+  /* height: 128px; */
   object-fit: cover;
   background-position: center;
-  border-radius: 50%;
+  filter: drop-shadow(0px 0px 8px #181a1b);
+  /* border-radius: 50%; */
 }
