@@ -163,7 +163,7 @@ button:hover,
   border-style: solid;
   border-color: #c71818;
   border-width: 3px;
-  background-color: #d7dfe2;
+  background-color: #ffffff;
 }
 
 /* Society6 */
@@ -172,7 +172,7 @@ button:hover,
   border-style: solid;
   border-color: #000000;
   border-width: 4px;
-  background-color: #d7dfe2;
+  background-color: #ffffff;
 }
 
 /* Mastodon */
@@ -181,7 +181,7 @@ button:hover,
   border-style: solid;
   border-color: #2b90d9;
   border-width: 3px;
-  background-color: #d7dfe2;
+  background-color: #ffffff;
 }
 
 /* Instagram */
