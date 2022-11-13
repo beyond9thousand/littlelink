@@ -69,12 +69,10 @@
   .container {
     width: 80%;
   }
-  .column,
-  .columns {
-    margin-left: 0;
+  .column {
+    margin: 10% 0%;
   }
-  .column:first-child,
-  .columns:first-child {
+  .column:first-child {
     margin-left: 0;
   }
 }
@@ -289,6 +287,6 @@ hr {
   /* height: 128px; */
   object-fit: cover;
   background-position: center;
-  filter: drop-shadow(0px 0px 8px #181a1b);
+  filter: drop-shadow(0px 0px 6px #181a1b);
   /* border-radius: 50%; */
 }
